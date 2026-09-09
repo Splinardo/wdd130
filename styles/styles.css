@@ -22,7 +22,7 @@ main img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
 }
 
 main {
@@ -46,10 +46,6 @@ aside img {
     height: auto;
     border: solid black;
     box-shadow: 0 0 50px black;
-}
-
-aside p {
-    padding: 0;
 }
 
 footer {
