@@ -101,21 +101,19 @@ h1 {
     width: 92%;
     padding: 20px;
     background-color: rgba(26, 68, 108, 0.95);
-    /* High contrast background tint */
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+    overflow: hidden;
 }
 
 .hero article p {
-    flex: 1;
+    float: left;
+    width: 75%;
     margin: 0;
     font-size: 1rem;
 }
 
 .hero article img {
+    float: right;
     width: 120px;
     height: auto;
     border: 2px solid white;
@@ -180,6 +178,10 @@ footer p {
 .socialmedia {
     display: flex;
     gap: 15px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .socialmedia img {
