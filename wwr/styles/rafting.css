@@ -56,7 +56,8 @@ nav ul li a:hover {
     color: var(--secondary-color);
 }
 
-h1 {
+h1,
+h2 {
     font-family: var(--heading-font);
     background-color: var(--primary-color);
     color: #ffffff;
@@ -124,24 +125,14 @@ main section:nth-of-type(1) {
     display: grid;
     grid-template-columns: 1fr 180px 1fr;
     align-items: center;
-    border: 1px solid #777777;
-    margin: 25px 16px;
-    padding: 20px;
 }
 
 main section:nth-of-type(1) h2 {
     grid-column: 1 / 4;
-    background-color: transparent;
-    color: #000000;
-    text-align: center;
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: var(--heading-font);
-    font-size: 1.75rem;
 }
 
 main section:nth-of-type(1) p {
-    margin: 0 16px;
+    margin: 10px 16px;
 }
 
 main section:nth-of-type(1) img {
@@ -154,20 +145,11 @@ main section:nth-of-type(2) {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 12px;
-    border: 1px solid #777777;
-    margin: 25px 16px;
-    padding: 20px;
+    padding: 10px 16px;
 }
 
 main section:nth-of-type(2) h2 {
     grid-column: 1 / 6;
-    background-color: transparent;
-    color: #000000;
-    text-align: center;
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: var(--heading-font);
-    font-size: 1.75rem;
 }
 
 main section:nth-of-type(2) figure {
@@ -226,6 +208,7 @@ footer p {
 }
 
 .company-information h1 {
+    position: static !important;
     font-family: var(--heading-font);
     font-size: 1.75rem;
     color: var(--primary-color) !important;
