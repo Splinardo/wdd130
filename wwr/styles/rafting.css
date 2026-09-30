@@ -56,14 +56,15 @@ nav ul li a:hover {
     color: var(--secondary-color);
 }
 
+h1,
 h2 {
     font-family: var(--heading-font);
-    background-color: var(--primary-color) !important;
-    color: #ffffff !important;
+    background-color: var(--primary-color);
+    color: #ffffff;
     text-align: center;
     padding: 12px;
     margin: 25px 0 10px 0;
-    display: block !important;
+    display: block;
 }
 
 p {
@@ -88,8 +89,8 @@ p {
     left: 0;
     width: 100%;
     text-align: center;
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--secondary-color) !important;
+    color: #ffffff !important;
     font-size: 2.5rem;
     padding: 10px 0;
     margin: 0;
@@ -207,18 +208,18 @@ footer p {
 }
 
 .company-information h1 {
+    position: static !important;
     font-family: var(--heading-font);
     font-size: 1.75rem;
-    color: var(--primary-color) !important;
+    color: #1a446c !important;
     background-color: #ffffff !important;
     text-align: center;
+    width: auto !important;
     padding: 15px 0 !important;
     margin: 10px 0 !important;
     display: block !important;
-    position: relative !important;
     height: auto !important;
     min-height: 40px !important;
-    width: 100% !important;
 }
 
 .company-address {
@@ -349,7 +350,7 @@ main section.contact-employee-section {
 
 .contact-employee-section h2 {
     font-family: var(--heading-font);
-    background-color: #f4f4f4 !important;
+    background-color: var(--secondary-color) !important;
     color: #000000 !important;
     text-align: center;
     padding: 20px 10px !important;
