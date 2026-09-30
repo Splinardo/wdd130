@@ -341,8 +341,8 @@ main section.contact-employee-section {
 
 .contact-employee-section h2 {
     font-family: var(--heading-font);
-    background-color: #f4f4f4 !important;
-    color: #1a446c !important;
+    background-color: var(--secondary-color) !important;
+    color: #000000 !important;
     text-align: center;
     padding: 20px 0 10px 0;
     margin: 0;
