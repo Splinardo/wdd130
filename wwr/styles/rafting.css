@@ -56,7 +56,8 @@ nav ul li a:hover {
     color: var(--secondary-color);
 }
 
-h2 {
+/* Universal Section Heading Rules */
+main section h2 {
     font-family: var(--heading-font);
     background-color: var(--primary-color);
     color: #ffffff;
@@ -80,6 +81,7 @@ p {
     height: auto;
 }
 
+/* Restricts absolute positioning exclusively to hero banner text layers */
 .hero h1 {
     font-family: var(--heading-font);
     position: absolute;
@@ -101,6 +103,7 @@ p {
     width: 92%;
     padding: 20px;
     background-color: #1a446c;
+    /* Clean hex code resolves transparency scanning crash */
     color: #ffffff;
     overflow: hidden;
 }
@@ -119,6 +122,7 @@ p {
     border: 2px solid white;
 }
 
+/* Layout for About Page Content Areas */
 main section:nth-of-type(1) {
     display: grid;
     grid-template-columns: 1fr 180px 1fr;
@@ -200,20 +204,24 @@ footer p {
     display: block;
 }
 
+/* Company Information Box Styling */
 .company-information {
     text-align: center;
     padding: 20px 0 10px 0;
 }
 
+/* Isolated block ensures h1 renders in-flow with explicit dimension metrics */
 .company-information h1 {
+    position: static !important;
     font-family: var(--heading-font);
     font-size: 1.5rem;
-    color: var(--primary-color);
-    background-color: #ffffff;
+    color: var(--primary-color) !important;
+    background-color: #ffffff !important;
     text-align: center;
-    padding: 10px 0;
-    margin: 10px 0;
-    display: block;
+    width: auto !important;
+    padding: 10px 0 !important;
+    margin: 10px 0 !important;
+    display: block !important;
 }
 
 .company-address {
@@ -334,6 +342,7 @@ footer p {
     background-color: #e0e0e0;
 }
 
+/* Contact Page Employee Profiles */
 main section.contact-employee-section {
     display: block;
     grid-template-columns: none;
@@ -402,16 +411,4 @@ main section.contact-employee-section {
     color: #444444;
     margin: 0;
     line-height: 1.4;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
 }
