@@ -411,3 +411,9 @@ main section.contact-employee-section {
     white-space: nowrap;
     border: 0;
 }
+
+main h2 {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+    display: block !important;
+}
