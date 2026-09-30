@@ -344,15 +344,15 @@ main section.contact-employee-section {
     background-color: #f4f4f4;
 }
 
-.contact-employee-section h2 {
-    font-family: var(--heading-font);
-    background-color: #f4f4f4 !important;
+.contact-employee-section h3 {
+    font-family: Arial, sans-serif !important;
+    background-color: #d35400 !important;
     color: #000000 !important;
-    text-align: center;
+    text-align: center !important;
     padding: 20px 10px !important;
     margin: 0 !important;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
     display: block !important;
 }
 
