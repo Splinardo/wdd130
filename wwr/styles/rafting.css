@@ -211,8 +211,8 @@ footer p {
     position: static !important;
     font-family: var(--heading-font);
     font-size: 1.75rem;
-    color: #1a446c !important;
-    background-color: #ffffff !important;
+    color: var(--primary-color) !important;
+    background-color: transparent !important;
     text-align: center;
     width: auto !important;
     padding: 15px 0 !important;
