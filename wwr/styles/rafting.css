@@ -342,7 +342,7 @@ main section.contact-employee-section {
     background-color: #f4f4f4;
 }
 
-.contact-employee-section h2 {
+.contact-employee-section h3 {
     font-family: var(--heading-font);
     background-color: var(--secondary-color) !important;
     color: #000000 !important;
