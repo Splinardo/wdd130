@@ -1,6 +1,6 @@
 :root {
     --primary-color: #1a446c;
-    --secondary-color: #d35400;
+    --secondary-color: #c84e00;
     --font-color: #222222;
     --heading-font: Arial, sans-serif;
     --body-font: Arial, sans-serif;
@@ -350,7 +350,7 @@ main section.contact-employee-section {
 
 .contact-employee-section h2 {
     font-family: var(--heading-font);
-    background-color: var(--secondary-color) !important;
+    background-color: #f4f4f4 !important;
     color: #000000 !important;
     text-align: center;
     padding: 20px 10px !important;
