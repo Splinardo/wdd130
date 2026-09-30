@@ -80,7 +80,7 @@ p {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     font-family: var(--heading-font);
     position: absolute;
     top: 25px;
@@ -205,13 +205,15 @@ footer p {
     padding: 20px 0 10px 0;
 }
 
-.company-information h2 {
-    background-color: #ffffff !important;
-    color: #1a446c !important;
+.company-information h1 {
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    background-color: #ffffff;
     text-align: center;
-    padding: 10px 0 !important;
-    margin: 10px 0 !important;
-    display: block !important;
+    padding: 10px 0;
+    margin: 10px 0;
+    display: block;
 }
 
 .company-address {
