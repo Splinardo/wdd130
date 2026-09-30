@@ -206,11 +206,12 @@ footer p {
 }
 
 .company-information h2 {
-    background-color: #ffffff;
-    color: var(--primary-color);
+    background-color: #ffffff !important;
+    color: #1a446c !important;
     text-align: center;
-    padding: 0;
-    margin: 10px 0;
+    padding: 12px 0 !important;
+    margin: 10px 0 !important;
+    display: block !important;
 }
 
 .company-address {
