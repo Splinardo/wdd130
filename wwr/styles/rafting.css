@@ -208,13 +208,16 @@ footer p {
 
 .company-information h1 {
     font-family: var(--heading-font);
-    font-size: 1.5rem;
-    color: #ffffff !important;
-    background-color: var(--primary-color) !important;
+    font-size: 1.75rem;
+    color: var(--primary-color) !important;
+    background-color: #ffffff !important;
     text-align: center;
-    padding: 12px !important;
-    margin: 10px 0 20px 0 !important;
+    padding: 15px 0 !important;
+    margin: 10px 0 !important;
     display: block !important;
+    position: relative !important;
+    height: auto !important;
+    min-height: 40px !important;
     width: 100% !important;
 }
 
