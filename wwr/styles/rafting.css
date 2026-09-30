@@ -206,8 +206,8 @@ footer p {
 }
 
 .company-information h2 {
-    background-color: #ffffff !important;
-    color: var(--primary-color) !important;
+    background-color: transparent;
+    color: darkblue;
     text-align: center;
     padding: 0;
     margin: 10px 0;
