@@ -56,13 +56,14 @@ nav ul li a:hover {
     color: var(--secondary-color);
 }
 
-main section h2 {
+h2 {
     font-family: var(--heading-font);
-    background-color: var(--primary-color);
-    color: #ffffff;
+    background-color: var(--primary-color) !important;
+    color: #ffffff !important;
     text-align: center;
     padding: 12px;
     margin: 25px 0 10px 0;
+    display: block !important;
 }
 
 p {
@@ -344,15 +345,15 @@ main section.contact-employee-section {
     background-color: #f4f4f4;
 }
 
-.contact-employee-section h3 {
-    font-family: Arial, sans-serif !important;
-    background-color: #d35400 !important;
+.contact-employee-section h2 {
+    font-family: var(--heading-font);
+    background-color: #f4f4f4 !important;
     color: #000000 !important;
-    text-align: center !important;
+    text-align: center;
     padding: 20px 10px !important;
     margin: 0 !important;
-    font-size: 1.5rem !important;
-    font-weight: bold !important;
+    font-size: 1.5rem;
+    font-weight: bold;
     display: block !important;
 }
 
