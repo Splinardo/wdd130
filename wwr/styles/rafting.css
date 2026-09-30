@@ -100,8 +100,8 @@ p {
     left: 4%;
     width: 92%;
     padding: 20px;
-    background-color: rgba(26, 68, 108, 0.95);
-    color: white;
+    background-color: #1a446c;
+    color: #ffffff;
     overflow: hidden;
 }
 
@@ -342,7 +342,7 @@ main section.contact-employee-section {
     background-color: #f4f4f4;
 }
 
-.contact-employee-section h3 {
+.contact-employee-section h2 {
     font-family: var(--heading-font);
     background-color: var(--secondary-color) !important;
     color: #000000 !important;
