@@ -13,9 +13,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
     font-family: var(--body-font);
-    color: #222222;
     color: var(--font-color);
     background-color: #f9f9f9;
 }
@@ -49,22 +47,17 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #1a446c;
     color: var(--primary-color);
     font-weight: bold;
-    font-family: Arial, sans-serif;
     font-family: var(--heading-font);
 }
 
 nav ul li a:hover {
-    color: #c84e00;
     color: var(--secondary-color);
 }
 
 h1 {
-    font-family: Arial, sans-serif;
     font-family: var(--heading-font);
-    background-color: #1a446c;
     background-color: var(--primary-color);
     color: #ffffff;
     text-align: center;
@@ -89,14 +82,12 @@ p {
 }
 
 .hero h1 {
-    font-family: Arial, sans-serif;
     font-family: var(--heading-font);
     position: absolute;
     top: 25px;
     left: 0;
     width: 100%;
     text-align: center;
-    background-color: #c84e00 !important;
     background-color: var(--secondary-color) !important;
     color: #ffffff !important;
     font-size: 2.5rem;
@@ -110,7 +101,6 @@ p {
     left: 4%;
     width: 92%;
     padding: 20px;
-    background-color: #1a446c;
     background-color: var(--primary-color);
     color: #ffffff;
     overflow: hidden;
@@ -146,7 +136,6 @@ main section:nth-of-type(1) h2 {
     text-align: center;
     padding: 0;
     margin: 0 0 20px 0;
-    font-family: Arial, sans-serif;
     font-family: var(--heading-font);
     font-size: 1.75rem;
     display: block;
@@ -178,7 +167,6 @@ main section:nth-of-type(2) h2 {
     text-align: center;
     padding: 0;
     margin: 0 0 20px 0;
-    font-family: Arial, sans-serif;
     font-family: var(--heading-font);
     font-size: 1.75rem;
     display: block;
@@ -211,7 +199,6 @@ footer {
     align-items: center;
     margin-top: 50px;
     padding: 25px 16px;
-    border-top: 2px solid #1a446c;
     border-top: 2px solid var(--primary-color);
 }
 
@@ -241,10 +228,8 @@ footer p {
 }
 
 .company-information h1 {
-    font-family: Arial, sans-serif;
     font-family: var(--heading-font);
     font-size: 1.75rem;
-    color: #1a446c !important;
     color: var(--primary-color) !important;
     background-color: transparent !important;
     text-align: center;
@@ -291,10 +276,8 @@ footer p {
 }
 
 .form-item label {
-    font-family: Arial, sans-serif;
     font-family: var(--heading-font);
     font-weight: bold;
-    color: #222222;
     color: var(--font-color);
 }
 
@@ -317,10 +300,8 @@ footer p {
 .choice-container legend {
     float: left;
     width: 110px;
-    font-family: Arial, sans-serif;
     font-family: var(--heading-font);
     font-weight: bold;
-    color: #222222;
     color: var(--font-color);
     margin-bottom: 5px;
 }
@@ -341,7 +322,6 @@ footer p {
     border-radius: 4px;
     width: 100%;
     resize: none;
-    font-family: Arial, sans-serif;
     font-family: var(--body-font);
 }
 
@@ -364,12 +344,10 @@ footer p {
     width: 100%;
     padding: 12px;
     background-color: #f4f4f4;
-    color: #222222;
     color: var(--font-color);
     border: 1px solid #ccc;
     border-radius: 4px;
     cursor: pointer;
-    font-family: Arial, sans-serif;
     font-family: var(--heading-font);
     font-weight: bold;
     font-size: 1rem;
@@ -390,7 +368,6 @@ main section.contact-employee-section {
 }
 
 .contact-employee-section h2 {
-    font-family: Arial, sans-serif;
     font-family: var(--heading-font);
     background-color: #f4f4f4 !important;
     color: #000000 !important;
@@ -436,7 +413,6 @@ main section.contact-employee-section {
 }
 
 .contact-employee-name {
-    font-family: Arial, sans-serif;
     font-family: var(--body-font);
     font-size: 1rem;
     font-weight: bold;
@@ -446,7 +422,6 @@ main section.contact-employee-section {
 }
 
 .contact-employee-title {
-    font-family: Arial, sans-serif;
     font-family: var(--body-font);
     font-size: 0.85rem;
     color: #444444;
