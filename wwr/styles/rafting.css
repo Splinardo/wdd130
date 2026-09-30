@@ -207,16 +207,15 @@ footer p {
 }
 
 .company-information h1 {
-    position: static !important;
     font-family: var(--heading-font);
     font-size: 1.5rem;
-    color: var(--primary-color) !important;
-    background-color: #ffffff !important;
+    color: #ffffff !important;
+    background-color: var(--primary-color) !important;
     text-align: center;
-    width: auto !important;
-    padding: 10px 0 !important;
-    margin: 10px 0 !important;
+    padding: 12px !important;
+    margin: 10px 0 20px 0 !important;
     display: block !important;
+    width: 100% !important;
 }
 
 .company-address {
