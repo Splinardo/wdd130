@@ -125,6 +125,10 @@ p {
     overflow: hidden;
 }
 
+.hero article h2 {
+    padding: 20px;
+}
+
 .hero article p {
     float: left;
     width: 75%;
